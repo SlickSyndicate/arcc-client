@@ -1,0 +1,14 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url(if($icon-sass-asset-helper, icon-font-path('#{$icon-font-path}#{$icon-font-name}.eot?v=#{$icon-version}'), '#{$icon-font-path}#{$icon-font-name}.eot?v=#{$icon-version}'));
+  src: url(if($icon-sass-asset-helper, icon-font-path('#{$icon-font-path}#{$icon-font-name}.eot?v=#{$icon-version}#iefix'), '#{$icon-font-path}#{$icon-font-name}.eot?v=#{$icon-version}#iefix')) format('embedded-opentype'),
+    url(if($icon-sass-asset-helper, icon-font-path('#{$icon-font-path}#{$icon-font-name}.woff2?v=#{$icon-version}'), '#{$icon-font-path}#{$icon-font-name}.woff2?v=#{$icon-version}')) format('woff2'),
+    url(if($icon-sass-asset-helper, icon-font-path('#{$icon-font-path}#{$icon-font-name}.woff?v=#{$icon-version}'), '#{$icon-font-path}#{$icon-font-name}.woff?v=#{$icon-version}')) format('woff'),
+    url(if($icon-sass-asset-helper, icon-font-path('#{$icon-font-path}#{$icon-font-name}.ttf?v=#{$icon-version}'), '#{$icon-font-path}#{$icon-font-name}.ttf?v=#{$icon-version}')) format('truetype'),
+    url(if($icon-sass-asset-helper, icon-font-path('#{$icon-font-path}#{$icon-font-name}.svg?v=#{$icon-version}#fontawesomeregular'), '#{$icon-font-path}#{$icon-font-name}.svg?v=#{$icon-version}#fontawesomeregular')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

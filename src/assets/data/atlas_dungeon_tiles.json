@@ -1,0 +1,29 @@
+{
+  "frames": [
+    {
+     "filename": "grey",
+      "frame": {"x": 0, "y": 0, "w": 8, "h": 8},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 8, "h": 8},
+      "sourceSize": {"w": 8, "h": 8}
+    },
+    {
+      "filename": "down",
+      "frame": {"x": 0, "y": 8, "w": 8, "h": 8},
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {"x": 0, "y": 0, "w": 8, "h": 8},
+      "sourceSize": {"w": 8, "h": 8}
+    }
+  ],
+  "meta": {
+    "app": "http://www.texturepacker.com",
+    "version": "1.0",
+    "image": "lofo_environment.png",
+    "format": "RGBA8888",
+    "size": {"w":128, "h":128},
+    "scale": "1",
+    "smartupdate": "$TexturePacker:SmartUpdate:94df81041404a206a4e9cd597a1e3495$"
+  }
+}
