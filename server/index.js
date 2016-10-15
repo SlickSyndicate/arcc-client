@@ -11,7 +11,7 @@ require('./config/routes')(app);
 
 if (env !== 'dev') {
     app.use((req, res, next) => {
-        res.sendFile(path.join(__dirname + '/client/dist/index.html'));
+        res.sendFile(path.join(__dirname + '/../client/dist/index.html'));
     });
 }
 

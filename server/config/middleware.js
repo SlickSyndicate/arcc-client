@@ -10,7 +10,7 @@ module.exports = (app) => {
     app.use(morgan("dev"));                                           // log every request to the console
 
     if (env !== 'dev') {
-        app.use(express.static(__dirname + '/client/dist'));      // set the static files location /public/img will be /img for users
+        app.use(express.static(__dirname + '/../../client/dist'));      // set the static files location /public/img will be /img for users
     }
 
     app.use(bodyParser.urlencoded({'extended':'true'}));            // parse application/x-www-form-urlencoded
