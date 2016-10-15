@@ -4,8 +4,10 @@ node_js:
 cache:
   directories:
   - $HOME/.yarn-cache
+  - $(npm config get prefix)/bin/gulp
+  - $(npm config get prefix)/bin/yarn
 before_script:
-- npm install -g gulp yarn
+- npm install -g gulp yarn --depth=0 || npm install -g gulp yarn
 script:
 - cd client
 - yarn
