@@ -3,6 +3,9 @@ const StrategyGoogleOAuth = require('passport-google-oauth').OAuth2Strategy;
 
 const User = require("../models/user");
 
+const callbackURLBase = process.env.CALLBACK_URL_BASE || 'http://localhost:3000';
+const redirectURLBase = process.env.REDIRECT_URL_BASE || 'http://localhost:9002';
+
 Passport.serializeUser(function(user, done) {
     done(null, user.id);
 });
@@ -14,9 +17,9 @@ Passport.deserializeUser(function(id, done) {
 });
 
 Passport.use(new StrategyGoogleOAuth({
-    clientID: "803116182621-d5mh232duhl1oa5jo1v7bugqo9ohub1o.apps.googleusercontent.com",
-    clientSecret: "UF0wpjc1yxastlc_B_Xu504Z",
-    callbackURL: "http://localhost:3000/auth/google/callback"
+    clientID: process.env.OAUTH_GOOGLE_ID,
+    clientSecret: process.env.OAUTH_GOOGLE_SECRET,
+    callbackURL: callbackURLBase + "/auth/google/callback"
 }, (accessToken, refreshToken, profile, done) => {
     User.filter({googleId: profile.id})
         .run((err, users) => {
@@ -33,9 +36,9 @@ Passport.use(new StrategyGoogleOAuth({
 module.exports = (app) => {
     app.get('/auth/google', Passport.authenticate('google', {scope: ['https://www.googleapis.com/auth/plus.login']}));
     app.get('/auth/google/callback',
-        Passport.authenticate('google', {failureRedirect: 'http://localhost:9002/login'}),
+        Passport.authenticate('google', {failureRedirect: redirectURLBase + '/login'}),
         (req, res) => {
-            res.redirect('http://localhost:9002/dashboard')
+            res.redirect(redirectURLBase + '/dashboard')
         }
     )
 };
