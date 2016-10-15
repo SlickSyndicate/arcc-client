@@ -1,4 +1,4 @@
-import SimpleGame from "../../game/game"
+import SimpleGame from "../../game/Game"
 
 let view = (controller) => {
     return m("div", {id: "canvasContainer"});
