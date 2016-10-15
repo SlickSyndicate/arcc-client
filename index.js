@@ -11,7 +11,7 @@ var bodyParser = require('body-parser');    // pull information from HTML POST (
 var methodOverride = require('method-override'); // simulate DELETE and PUT (express4)
 
 if (env !== 'dev') {
-    app.use(express.static(__dirname + '/../client/dist'));      // set the static files location /public/img will be /img for users
+    app.use(express.static(__dirname + '/client/dist'));      // set the static files location /public/img will be /img for users
 }
 
 app.use(morgan("dev"));                                           // log every request to the console
@@ -23,7 +23,7 @@ app.use(methodOverride());
 //TODO API ROUTING LOGIC HERE
 
 app.use((req, res, next) => {
-    res.sendFile(path.join(__dirname + '/../client/dist/index.html'))
+    res.sendFile(path.join(__dirname + '/client/dist/index.html'))
 });
 
 
