@@ -12,7 +12,7 @@ let view = (controller) => {
     }
 
     return m(".masthead.clearfix", m(".inner", [
-        m("h1.masthead-brand", "Arcadian Conquest"),
+        m("h1.masthead-brand", m("a", {config: m.route, href: "/"}, "Arcadian Conquest")),
         m("nav.nav.nav-masthead", tabs)
     ]));
 };
