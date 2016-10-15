@@ -39,7 +39,7 @@ developmentConfig.output = {
     filename: "bundles/[name].[hash].bundle.js",
     chunkFilename: "chunks/[name].[chunkhash].chunk.js",
     path: __dirname + "/dist",
-    publicPath: "//cdn.arcc.rocks/"
+    publicPath: "//arcc.rocks/"
 };
 
 module.exports = developmentConfig;
