@@ -9,26 +9,28 @@ const srcDir = "src";
 // Generate the HTML
 gulp.task('html', () => {
     gulp.src(srcDir + '/assets/**/*')
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('dist/'))
+        .on('end', () => {
+            // Production settings
+            if ($.util.env.production) {
+                del(["dist/index.html" ]);
+                let injectSources = gulp.src(['dist/bundles/vendor**.js','dist/bundles/main**.js'], {read: false});
 
-    // Production settings
-    if ($.util.env.production) {
-        var injectSources = gulp.src(['dist/bundles/vendor**.js','dist/bundles/main**.js'], {read: false});
-
-        gulp.src(srcDir + '/assets/index.html')
-            .pipe($.inject(injectSources, {
-                ignorePath: "/dist",
-                removeTags: true
-            }))
-            .pipe($.if('*.js', $.uglify({comments: false, discardComments: {removeAll: true}})))
-            .pipe($.if('*.css', $.cssnano({zindex: false})))
-            .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
-            .pipe($.cdnizer({
-                defaultCDNBase: '//cdn.arcc.rocks/',
-                files: ['**/*.{bundle.js,css,gif,png,jpg,jpeg}']
-            }))
-            .pipe(gulp.dest('dist'))
-    }
+                gulp.src(srcDir + '/assets/index.html')
+                    .pipe($.inject(injectSources, {
+                        ignorePath: "/dist",
+                        removeTags: true
+                    }))
+                    .pipe($.if('*.js', $.uglify({comments: false, discardComments: {removeAll: true}})))
+                    .pipe($.if('*.css', $.cssnano({zindex: false})))
+                    .pipe($.if('*.html', $.htmlmin({collapseWhitespace: true})))
+                    .pipe($.cdnizer({
+                        defaultCDNBase: '//cdn.arcc.rocks/',
+                        files: ['**/*.{bundle.js,css,gif,png,jpg,jpeg}']
+                    }))
+                    .pipe(gulp.dest('dist/', {overwrite: true}))
+            }
+        });
 });
 
 // Runs Webpack to build our JS files
