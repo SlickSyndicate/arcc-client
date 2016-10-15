@@ -1,4 +1,4 @@
-import SimpleGame from "../../game/Game"
+import {SimpleGame} from "../../game/Game"
 
 let view = (controller) => {
     return m("div", {id: "canvasContainer"});
@@ -7,7 +7,6 @@ let view = (controller) => {
 module.exports = {
     view: view,
     controller: () => {
-        console.log("REE");
         new SimpleGame();
     }
 };

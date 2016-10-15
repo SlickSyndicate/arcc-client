@@ -76,9 +76,16 @@ module.exports = {
         })
     ],
     entry: {
-        main: ["./src/app/entry.js"]
+        main: ["./src/app/entry.js"],
+        // vendor: [
+        //     "mithril",
+        //     // "./assets/lib/pixi.js",
+        //     // "./assets/lib/phaser.js"
+        // ]
     },
     externals: {
-        "jquery": "jQuery"
+        "jquery": "jQuery",
+        // "pixi": "PIXI",
+        "phaser": "Phaser"
     }
 };
