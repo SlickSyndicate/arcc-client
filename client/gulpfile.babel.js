@@ -29,7 +29,10 @@ gulp.task('html', () => {
     // Development settings
     else {
         gulp.src(srcDir + '/assets/index.html')
-            .pipe(gulp.dest('dist'))
+            .pipe(gulp.dest('dist'));
+
+        gulp.src(srcDir + '/assets/img/*')
+            .pipe(gulp.dest('dist/img'));
     }
 });
 
@@ -83,7 +86,7 @@ gulp.task('serve', ["html"], () => {
         ],
         plugins: ['bs-fullscreen-message'],
         files: [
-            'dist/*.html'
+            'dist'
         ]
     });
 });
