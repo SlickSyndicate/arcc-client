@@ -12,6 +12,7 @@ script:
 - cd client
 - yarn
 - gulp build
+- cd ..
 deploy:
   provider: heroku
   api_key:
@@ -19,9 +20,3 @@ deploy:
   app: arcc-server-api
   on: production
   skip_cleanup: true
-#  strategy: git
-#  run:
-#  - "npm i -g gulp yarn"
-#  - "cd client"
-#  - "yarn add"
-#  - "gulp build --production"
