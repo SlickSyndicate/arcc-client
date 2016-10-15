@@ -79,7 +79,7 @@ module.exports = {
     },
     externals: {
         "jquery": "jQuery",
-        // "pixi": "PIXI",
-        "phaser": "Phaser"
+        "phaser": "Phaser",
+        "mithril": "m"
     }
 };
