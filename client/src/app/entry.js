@@ -19,6 +19,7 @@ require('styles/font-awesome.scss');
 global.ARCC = {
     endpoint: __API_ENDPOINT__,
     user: null,
+    activeTab: null,
     fetchUser: (cb) => {
         m.request({
             method: 'GET',

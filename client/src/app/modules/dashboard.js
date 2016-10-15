@@ -5,6 +5,8 @@ let view = (controller) => {
 };
 
 module.exports = {
-    controller: () => {},
+    controller: () => {
+        ARCC.activeTab = "dashboard";
+    },
     view: view
 };
