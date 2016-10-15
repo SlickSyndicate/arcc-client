@@ -11,7 +11,8 @@ before_script:
 script:
 - cd client
 - yarn
-- gulp build
+- gulp build --production
+- rm -rf node_modules src ./*.js
 - cd ..
 deploy:
   provider: heroku
