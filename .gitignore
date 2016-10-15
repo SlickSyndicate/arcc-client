@@ -2,3 +2,5 @@ node_modules
 dist
 .tmp
 yarn.lock
+.idea/workspace.xml
+.idea/jsLibraryMappings.xml
