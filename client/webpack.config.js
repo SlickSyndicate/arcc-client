@@ -2,23 +2,17 @@ const path = require('path');
 const webpack = require('webpack');
 
 const autoprefixer = require('autoprefixer');
-const sassLoaders = [
-    'css-loader',
-    'postcss-loader',
-    'resolve-url',
-    'sass-loader?sourceMap&indentedSyntax=sass&includePaths[]=' + path.resolve(__dirname, './src/assets')
-];
 
 module.exports = {
     devtool: '#source-map',
     debug: true,
 
-    resolveLoader: {
-        root: path.join(__dirname, 'node_modules')
-    },
     resolve: {
         extensions: ['', '.js'],
         modulesDirectories: ['src/assets', 'src/app', 'src/game', 'node_modules']
+    },
+    resolveLoader: {
+        root: path.join(__dirname, 'node_modules')
     },
 
     module: {
