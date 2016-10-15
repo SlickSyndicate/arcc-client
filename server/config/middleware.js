@@ -25,7 +25,7 @@ module.exports = (app) => {
             if (env === "dev") {
                 res.header("Access-Control-Allow-Origin", "http://localhost:9002");
             } else {
-                res.header("Access-Control-Allow-Origin", "https://arcc.rocks, https://www.arcc.rocks, https://api.arcc.rocks, https://cdn.arcc.rocks");
+                res.header("Access-Control-Allow-Origin", "*");
             }
             res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
             res.header("Access-Control-Allow-Credentials", "true");
