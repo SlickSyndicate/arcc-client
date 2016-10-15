@@ -21,6 +21,7 @@ deploy:
   skip_cleanup: false
   strategy: git
   run:
-  - "npm -g gulp"
+  - "npm -g gulp yarn"
   - "cd client"
-  - "gulp build"
+  - "yarn add"
+  - "gulp build --production"
