@@ -16,54 +16,24 @@ require('styles/font-awesome.scss');
 // require('bootstrap');
 
 // Special variables
-global.mm = {
-/*
- endpoint: __API_ENDPOINT__,
-    authToken: localStorage.getItem("authToken") || sessionStorage.getItem("authToken") || '',
+global.ARCC = {
+    endpoint: __API_ENDPOINT__,
     user: null,
     fetchUser: (cb) => {
-        let authCookie = Cookie.get("authToken");
-        if (authCookie !== null) {
-            console.log("Got auth cookie:", authCookie);
-            mm.authToken = authCookie;
-            localStorage.setItem("authToken", authCookie);
-            sessionStorage.setItem("authToken", authCookie);
-            Cookie.set("authToken", "EMPTY", {expires: new Date(0).toGMTString()})
-        }
-
-        if (mm.authToken <= 0) return cb();
-
         m.request({
             method: 'GET',
-            url: mm.endpoint + '/users/current',
+            url: ARCC.endpoint + '/users/current',
             background: true
         }).then((response) => {
             // Invalid auth token
             if (!response) {
-                mm.authToken = '';
-                mm.user = null;
-                localStorage.removeItem('authToken');
-                sessionStorage.removeItem('authToken');
+                ARCC.user = null;
             } else {
-                mm.user = response;
+                ARCC.user = response;
             }
             if (cb) cb();
         });
-    },
-    openTOS: () => {
-        bootbox.dialog({
-            title: "Terms of Service",
-            message: "This is the TOS. Fear it.",
-            buttons: {
-                close: {
-                    label: "Close",
-                    className: "btn-primary"
-                }
-            }
-        });
-    },
-    Header: require("./partials/header")
-    */
+    }
 };
 
 global.util = {
@@ -94,7 +64,6 @@ let dones = 0;
 m.request = function (options) {
     if (!options.config) {
         options.config = function (xhr) {
-            xhr.setRequestHeader("X-AUTH-TOKEN", mm.authToken);
             xhr.withCredentials = true;
         }
     }
@@ -172,12 +141,12 @@ function configureRoutes() {
     var asyncModule = function(name) {
         return {
             controller: function() {
-                if (!mm.user) {
-                    if (name.startsWith("dashboard") || name.startsWith("staff")) {
-                        return m.route('/signin');
+                if (!ARCC.user) {
+                    if (name.startsWith("dashboard") || name.startsWith("admin")) {
+                        return m.route('/login');
                     }
                 } else {
-                    if (name.startsWith("auth/signIn") || name.startsWith("auth/signUp")) {
+                    if (name.startsWith("login")) {
                         return m.route('/dashboard');
                     }
                 }
@@ -206,8 +175,11 @@ function configureRoutes() {
         "/": asyncModule("home"),
         "/play": asyncModule("play"),
         "/about": asyncModule("about"),
-        "/contact": asyncModule("contact")
+        "/contact": asyncModule("contact"),
+        "/login": asyncModule("login"),
+        "/dashboard": asyncModule("dashboard"),
+        "/:path...": asyncModule("404"),
     });
 }
-// mm.fetchUser(configureRoutes);
-configureRoutes();
+ARCC.fetchUser(configureRoutes);
+// configureRoutes();
