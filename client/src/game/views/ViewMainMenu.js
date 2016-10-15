@@ -1,4 +1,4 @@
-import {SimpleGame} from "../game";
+import {SimpleGame} from "../Game";
 import {SocketHelper} from "../SocketHelper";
 import {ViewDungeon} from "./ViewDungeon";
 export class ViewMainMenu {
