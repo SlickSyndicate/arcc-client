@@ -3,8 +3,8 @@ let view = (controller) => {
         m("h1.masthead-brand", "Arcadian Conquest"),
         m("nav.nav.nav-masthead", [
             m("a.nav-link.active", {href: "/", config: m.route}, "Home"),
-            m("a.nav-link", "About"),
-            m("a.nav-link", "Contact")
+            m("a.nav-link", {href: "/about", config: m.route}, "About"),
+            m("a.nav-link", {href: "/contact", config: m.route}, "Contact")
         ])
     ]));
 };
