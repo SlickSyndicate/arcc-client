@@ -1,6 +1,9 @@
 language: node_js
 node_js:
 - '6'
+cache:
+  directories:
+  - $HOME/.yarn-cache
 before_script:
 - npm install -g gulp yarn
 script:
