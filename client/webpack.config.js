@@ -34,9 +34,7 @@ module.exports = {
                 loader: "babel-loader",
                 exclude: /node_modules/,
                 query: {
-                    // plugins: ['transform-runtime', 'syntax-class-properties', 'transform-class-properties'],
-                    // presets: ['es2017']
-                    presets: ['stage-0', 'es2015']
+                    presets: ['es2015', 'stage-0']
                 }
             }, {
                 test: /\.css$/,

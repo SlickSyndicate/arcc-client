@@ -2,68 +2,118 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a3258e-3bd4-4a76-b37d-53ad09689096" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/lofi_environment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/img/uipack_rpg_sheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sbt.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.babel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/prototype-client-browser.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/modules/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/modules/play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/partials/footer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/partials/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/data/atlas_dungeon_tiles.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/data/atlas_ui.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/data/scene.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/arcc/cover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_extras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/font-awesome/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/assets/styles/stylesheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/APIHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/Game.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/SocketHelper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/views/ViewDungeon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game/views/ViewMainMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/webpack.production.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/arcc/hinted-EnchantedLand.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/arcc/hinted-EnchantedLand.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/arcc/hinted-EnchantedLand.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/brown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/lofi_environment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/uipack_rpg_sheet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.babelrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gulpfile.babel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/entry.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/modules/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/modules/play.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/partials/footer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/partials/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/data/atlas_dungeon_tiles.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/data/atlas_ui.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/data/scene.yaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/arcc/cover.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_extras.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/stylesheet.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/APIHandler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/Game.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/SocketHelper.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/views/ViewDungeon.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/views/ViewMainMenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/webpack.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/webpack.production.config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/entry.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/modules/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/modules/play.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/partials/footer.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/partials/header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/data/atlas_dungeon_tiles.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/data/atlas_ui.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/data/scene.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/brown.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/grey.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/lofi_environment.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/uipack_rpg_sheet.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/arcc/cover.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_animated.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_extras.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/stylesheet.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/APIHandler.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/Game.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/SocketHelper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/views/ViewDungeon.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/views/ViewMainMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.production.config.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -81,14 +131,45 @@
     <favorites_list name="prototype-client-browser" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitattributes">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -163,10 +244,12 @@
         <option value="$PROJECT_DIR$/src/game/SocketHelper.js" />
         <option value="$PROJECT_DIR$/src/app/entry.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/game/Game.js" />
         <option value="$PROJECT_DIR$/src/game/views/ViewMainMenu.js" />
         <option value="$PROJECT_DIR$/src/game/views/ViewDungeon.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -180,13 +263,18 @@
     <detection-done>true</detection-done>
     <gulpfiles>
       <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.babel.js</gulpfile-path>
+        <gulpfile-path>$PROJECT_DIR$/client/gulpfile.babel.js</gulpfile-path>
       </GulpfileState>
     </gulpfiles>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+    <handled-path value="$PROJECT_DIR$/server/node_modules" />
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -211,7 +299,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -229,7 +319,6 @@
     <panes>
       <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -242,8 +331,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype-client-browser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype-client-browser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype-client-browser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prototype-client-browser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,6 +376,13 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\client" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\css\arcc" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app\modules" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser" />
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app\modules" />
@@ -265,14 +390,8 @@
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets" />
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\css" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\css\arcc" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app\modules" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets" />
-    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.Production Test">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -467,6 +586,19 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="Production Test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/server">
+      <envs>
+        <env name="NODE_ENV" value="production" />
+      </envs>
+      <profiling v8-profiler-path="" />
+      <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSProfilingRunConfigurationExtension">
+        <profiling v8-profiler-path="" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.Production Test" />
+    </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -491,33 +623,34 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -526,6 +659,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="2" />
@@ -533,27 +670,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!block;n#engines#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#engines#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -561,7 +678,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="48" column="1" lean-forward="false" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -572,12 +718,12 @@
     <entry file="file://$PROJECT_DIR$/src/js/index.ts" />
     <entry file="file://$PROJECT_DIR$/src/assets/css/cover.css" />
     <entry file="file://$PROJECT_DIR$/src/assets/css/index.css" />
-    <entry file="file://$PROJECT_DIR$/src/assets/favicon.ico">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/favicon.ico">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.production.config.js">
+    <entry file="file://$PROJECT_DIR$/client/webpack.production.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="101" column="9" lean-forward="true" selection-start-line="101" selection-start-column="9" selection-end-line="101" selection-end-column="9" />
@@ -591,122 +737,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/main.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="21" lean-forward="true" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_bordered-pulled.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_bordered-pulled.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_path.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_path.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_animated.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_animated.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_icons.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_icons.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_extras.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_extras.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/font-awesome/_core.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/font-awesome/_core.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/stylesheet.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/arcc/cover.scss">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/styles/arcc/cover.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="23" column="17" lean-forward="true" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/index.html">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="17" column="78" lean-forward="false" selection-start-line="17" selection-start-column="78" selection-end-line="17" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/partials/footer.js">
+    <entry file="file://$PROJECT_DIR$/client/src/app/partials/footer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/home.js">
+    <entry file="file://$PROJECT_DIR$/client/src/app/modules/home.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="65" lean-forward="false" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/partials/header.js">
+    <entry file="file://$PROJECT_DIR$/client/src/app/partials/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="64" lean-forward="false" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
@@ -718,103 +855,99 @@
     <entry file="file://$PROJECT_DIR$/src/game/typings/globals/custom.d.ts" />
     <entry file="file://$PROJECT_DIR$/tsconfig.json" />
     <entry file="file://$PROJECT_DIR$/package.bak.json" />
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/src/game/index.js" />
     <entry file="file://$PROJECT_DIR$/src/game/views/AbstractView.js" />
-    <entry file="file://$PROJECT_DIR$/src/game/APIHandler.js">
+    <entry file="file://$PROJECT_DIR$/client/src/game/APIHandler.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/SocketHelper.js">
+    <entry file="file://$PROJECT_DIR$/client/src/game/SocketHelper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/modules/play.js">
+    <entry file="file://$PROJECT_DIR$/client/src/app/modules/play.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.babel.js">
+    <entry file="file://$PROJECT_DIR$/client/gulpfile.babel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/entry.js">
+    <entry file="file://$PROJECT_DIR$/client/src/app/entry.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="59" column="41" lean-forward="false" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
-          <folding>
-            <element signature="e#2174#2592#0" expanded="false" />
-            <element signature="e#2761#4096#0" expanded="false" />
-            <element signature="n#!!block;n#recalculateProgressBar#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1026">
           <caret line="59" column="22" lean-forward="true" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
-          <folding>
-            <element signature="n#!!block;n#engines#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/Game.js">
+    <entry file="file://$PROJECT_DIR$/client/src/game/Game.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="43" column="74" lean-forward="true" selection-start-line="43" selection-start-column="74" selection-end-line="43" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/game/views/ViewMainMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/game/views/ViewDungeon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/views/ViewMainMenu.js">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game/views/ViewDungeon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="16" lean-forward="false" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>

@@ -2,10 +2,10 @@ import {SimpleGame} from "../game";
 import {SocketHelper} from "../SocketHelper";
 import {ViewDungeon} from "./ViewDungeon";
 export class ViewMainMenu {
-    // game;
-    // container;
-    // logo;
-    // button;
+    game;
+    container;
+    logo;
+    button;
 
     constructor(game) {
         this.game = game;

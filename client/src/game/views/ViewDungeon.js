@@ -1,6 +1,6 @@
 export class ViewDungeon {
-    // game;
-    // container;
+    game;
+    container;
 
     constructor(game, dungeonMetadata) {
         // console.log("Dungeon metadata:", dungeonMetadata)
