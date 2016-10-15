@@ -97,6 +97,10 @@ body {
   border-bottom-color: #fff;
 }
 
+.follow:hover {
+    color: hotpink;
+}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
@@ -167,3 +171,4 @@ body {
     width: 42rem;
   }
 }
+
