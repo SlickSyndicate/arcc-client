@@ -204,7 +204,9 @@ function configureRoutes() {
     m.route.mode = "pathname";
     m.route(document.querySelector("main"), "/", {
         "/": asyncModule("home"),
-        "/play": asyncModule("play")
+        "/play": asyncModule("play"),
+        "/about": asyncModule("about"),
+        "/contact": asyncModule("contact")
     });
 }
 // mm.fetchUser(configureRoutes);

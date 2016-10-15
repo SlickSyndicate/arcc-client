@@ -11,9 +11,9 @@ export class SimpleGame {
             screenWidth *= window.devicePixelRatio;
             screenHeight *= window.devicePixelRatio;
         }
-
+        var width = document.getElementById('canvasContainer').offsetWidth
         // Load phaser
-        this.game = new Phaser.Game(screenWidth, screenHeight, Phaser.CANVAS, 'content', {
+        this.game = new Phaser.Game(width, width, Phaser.CANVAS, 'canvasContainer', {
             preload: this.preload,
             create: this.create,
             update: this.update

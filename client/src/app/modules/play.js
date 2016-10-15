@@ -7,6 +7,7 @@ let view = (controller) => {
 module.exports = {
     view: view,
     controller: () => {
-        new SimpleGame();
+        setTimeout(() => { new SimpleGame();}, 1100)
     }
 };
+
