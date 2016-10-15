@@ -50,6 +50,10 @@ module.exports = {
         ]
     },
     plugins: [
+        new webpack.DefinePlugin({
+            __API_ENDPOINT__: "'//localhost:3000'",
+            __COOKIE_HOST__: "'.arcc.rocks'"
+        }),
         new webpack.ProvidePlugin({
             m: "mithril",
             _: "lodash",
