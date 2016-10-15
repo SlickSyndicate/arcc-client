@@ -1,5 +1,6 @@
 "use strict";
 const env = process.env.NODE_ENV || 'dev';
+let port = 3000;
 
 var path = require('path');
 var express = require('express');
@@ -11,6 +12,7 @@ var methodOverride = require('method-override'); // simulate DELETE and PUT (exp
 
 if (env !== 'dev') {
     app.use(express.static(__dirname + '/../client/dist'));      // set the static files location /public/img will be /img for users
+    port = process.env.PORT
 }
 
 app.use(morgan("dev"));                                           // log every request to the console
@@ -25,6 +27,7 @@ app.use((req, res, next) => {
     res.sendFile(path.join(__dirname + '/../client/dist/index.html'))
 });
 
-app.listen(3000, function () {
+
+app.listen(port, function () {
     console.log('Example app listening on port 3000!');
 });

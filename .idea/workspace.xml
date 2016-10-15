@@ -2,117 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80a3258e-3bd4-4a76-b37d-53ad09689096" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/apple-touch-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/arcc/hinted-EnchantedLand.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/arcc/hinted-EnchantedLand.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/arcc/hinted-EnchantedLand.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/brown.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/grey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/lofi_environment.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/img/uipack_rpg_sheet.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/.babelrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/gulpfile.babel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/entry.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/modules/home.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/modules/play.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/partials/footer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/app/partials/header.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/data/atlas_dungeon_tiles.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/data/atlas_ui.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/data/scene.yaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/fonts/font-awesome/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/robots.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/arcc/cover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_extras.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/font-awesome/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/assets/styles/stylesheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/APIHandler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/Game.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/SocketHelper.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/views/ViewDungeon.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/src/game/views/ViewMainMenu.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/webpack.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/client/webpack.production.config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/yarn.lock" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.babel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/entry.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/modules/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/modules/play.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/partials/footer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/partials/header.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/apple-touch-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/data/atlas_dungeon_tiles.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/data/atlas_ui.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/data/scene.yaml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/arcc/hinted-EnchantedLand.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/fonts/font-awesome/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/brown.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/grey.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/lofi_environment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/img/uipack_rpg_sheet.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/arcc/cover.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_extras.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/font-awesome/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/styles/stylesheet.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/APIHandler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/Game.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/SocketHelper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/views/ViewDungeon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/game/views/ViewMainMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/webpack.production.config.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/server/package.json" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/server/index.js" afterPath="$PROJECT_DIR$/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.travis.yml" afterPath="$PROJECT_DIR$/.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -133,30 +26,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/index.js">
+        <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+            <state relative-caret-position="339">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <marker date="1476506951010" expanded="true" signature="442:606" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="8" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitattributes" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="198">
+              <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -243,13 +138,15 @@
         <option value="$PROJECT_DIR$/src/app/modules/play.js" />
         <option value="$PROJECT_DIR$/src/game/SocketHelper.js" />
         <option value="$PROJECT_DIR$/src/app/entry.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/game/Game.js" />
         <option value="$PROJECT_DIR$/src/game/views/ViewMainMenu.js" />
         <option value="$PROJECT_DIR$/src/game/views/ViewDungeon.js" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/server/index.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/server/index.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/server/package.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -270,8 +167,6 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/client/node_modules" />
-    <handled-path value="$PROJECT_DIR$/node_modules" />
-    <handled-path value="$PROJECT_DIR$/server/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -331,34 +226,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prototype-client-browser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prototype-client-browser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prototype-client-browser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prototype-client-browser" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -376,19 +243,19 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\client" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\css\arcc" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app\modules" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app" />
-      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser" />
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app\modules" />
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\styles" />
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets" />
       <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\client" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\assets\css\arcc" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app\modules" />
+      <recent name="C:\Users\Jesse\Development\Projects\hackathon-2016\prototype-client-browser\src\app" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.Production Test">
@@ -586,7 +453,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Production Test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/server">
+    <configuration default="false" name="Production Test" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$/server">
       <envs>
         <env name="NODE_ENV" value="production" />
       </envs>
@@ -661,7 +528,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Change the folder structure up" />
+    <MESSAGE value="Add Travis integration" />
+    <MESSAGE value="Fix Travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Travis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -670,29 +540,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -928,10 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="86" lean-forward="false" selection-start-line="15" selection-start-column="86" selection-end-line="15" selection-end-column="86" />
+        <state relative-caret-position="54">
+          <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -944,10 +791,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="36">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <marker date="1476506951010" expanded="true" signature="442:606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="6" lean-forward="false" selection-start-line="7" selection-start-column="6" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
           <folding />
         </state>
       </provider>
