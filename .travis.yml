@@ -18,8 +18,5 @@ deploy:
     secure: Rxqil0eOBV3x01iZZSFMuU5NHQ1mWkYx6tkuNjfWhUGV5QhWvzfkTx2r3Uf9Lq44j3CYeAzVl0k1NEbdwOr8S71jUqlLIxwPeuktKwhH2dSlWWxL3HJhtakkx+AWR6alIF/l3nP5ThCZbi/2OTwvrobaQ4udnrbAFQUqirvGXZfDiFen/Pfjpvo3Pkp4tnH98VakCdVcNywlm1l1fcp23FB9i9xKHt2Vwd7g3wjBBB3eFyxOCwzmNUS+1gppJh+YKKJeTptb3o3BzWjYa61vtitvdX+RSQY4CmQe0NavWNe/5S2747K+uL3nKY83+de9Bgwp1TABvBVQ9SVcbXsPgIs0j8kwupq98dKxh6pxExx4qh7/YqVMdVySWgRwW5leF7lnO6keLCm4oOrJU8TGhmKWjckIgCX1ukZwiQZD8FwgOJfSjQseHyPkFYytjjo44kMudWcY/4NYIE+RU5qIpJEztFioDlIqqni0q562rZtipE5CIYWr8Y0XKm52POJoApg9do7JRDzPWUmEFP8RRuivBKM8xza0eknfe5X8NQpH7dlKRR/+TCiRK4wX6OaI8ez7dHSNOV2RHQ8EvS7CGhdbtTTAm+zq04xW1KLRvHDCfQxzswJH10JTcEs0XXW5XBpu0esZwcPpgytob1AJQISXG9GQ/avTqoxNb/JgQF0=
   app: arcc-server-api
   on: production
-  skip_cleanup: false
+  skip_cleanup: true
   strategy: git
-  run:
-  - "cd client"
-  - "gulp build"
