@@ -21,12 +21,14 @@ module.exports = (app) => {
     app.use(Passport.initialize());
     app.use(Passport.session());
 
-    if (env === "dev") {
         app.use(function(req, res, next) {
-            res.header("Access-Control-Allow-Origin", "http://localhost:9002");
+            if (env === "dev") {
+                res.header("Access-Control-Allow-Origin", "http://localhost:9002");
+            } else {
+                res.header("Access-Control-Allow-Origin", "https://arcc.rocks, https://www.arcc.rocks, https://api.arcc.rocks, https://cdn.arcc.rocks");
+            }
             res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
             res.header("Access-Control-Allow-Credentials", "true");
             next();
         });
-    }
 };
