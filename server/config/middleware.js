@@ -19,7 +19,7 @@ module.exports = (app) => {
     app.use(bodyParser.json({ type: 'application/vnd.api+json' })); // parse application/vnd.api+json as json
     app.use(require('express-session')({secret: "REE"})); // parse application/vnd.api+json as json
     app.use(methodOverride());
-    app.use(cors({origin: true, credentials: true}));
+    app.use(CORS({origin: true, credentials: true}));
     app.use(Passport.initialize());
     app.use(Passport.session());
 };
