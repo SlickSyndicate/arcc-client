@@ -13,7 +13,6 @@ export class APIHandler {
             method: "GET",
             url: ARCC.endpoint + "/instance?" + queryString
         }).then((response) => {
-            console.log("Geo instance response: " + response)
             cb(response)
         })
     }

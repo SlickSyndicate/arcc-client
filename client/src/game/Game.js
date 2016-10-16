@@ -1,4 +1,3 @@
-import {ViewMainMenu} from "./views/ViewMainMenu";
 import {Boot} from "./states/Boot"
 import {MainMenu} from "./states/MainMenu";
 import {Preload} from "./states/Preload";
@@ -20,11 +19,6 @@ export class SimpleGame {
         let width = window.innerWidth * 0.8;
         // Load phaser
         this.game = new Phaser.Game(width, width / 16 * 9, Phaser.CANVAS, 'canvasContainer', );
-        // {
-            // preload: this.preload,
-            // create: this.create,
-            // update: this.update
-        // }
 
         // Register our states
         this.game.state.add("Boot", new Boot());
