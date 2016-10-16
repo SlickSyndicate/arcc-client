@@ -10,14 +10,21 @@ export class Dungeon extends AbstractState {
     entities;
     entityGroup;
     bullets;
+    obstacles;
+    water;
 
     create() {
+        this.game.physics.startSystem(Phaser.Physics.ARCADE);
+
         this.entities = {};
         this.entityGroup = this.game.add.physicsGroup(Phaser.Physics.ARCADE);
 
         this.bullets = this.game.add.group();
         this.bullets.enableBody = true;
         this.bullets.physicsBodyType = Phaser.Physics.ARCADE;
+
+        this.obstacles = this.game.add.physicsGroup(Phaser.Physics.ARCADE);
+        this.water = this.game.add.physicsGroup(Phaser.Physics.ARCADE);
 
         this.keys = {
             up: this.game.input.keyboard.addKey(Phaser.Keyboard.W),
@@ -49,10 +56,13 @@ export class Dungeon extends AbstractState {
         if (this.keys.shift.isDown) moveData.sprinting = true;
         if (moveData.directions.length > 0) this.socket.emit("player_move", moveData);
 
-        this.game.physics.arcade.collide(this.entityGroup);
-        this.game.world.bringToTop(this.entityGroup)
-
+        this.game.world.bringToTop(this.obstacles);
+        this.game.world.bringToTop(this.entityGroup);
         this.game.world.bringToTop(this.bullets);
+
+        // this.game.physics.arcade.collide(this.entityGroup);
+        this.game.physics.arcade.collide(this.entityGroup, this.obstacles, () => {}, () => {}, this);
+        this.game.physics.arcade.collide(this.entityGroup, this.water, () => {}, () => {}, this);
     }
 
     render() {
@@ -77,10 +87,21 @@ export class Dungeon extends AbstractState {
                 let img;
                 switch (currentTile) {
                     case 0:
-                        img = this.game.add.sprite(x * 32, y * 32, "lofi_environment", 114, this.container);
+                        img = this.obstacles.create(x * 32, y * 32, "lofi_environment", 114, this.container);
+                        img.body.immovable = true;
                         break;
                     case 1:
                         img = this.game.add.sprite(x * 32, y * 32, "lofi_environment", 70, this.container);
+                        break;
+                    case 2:
+                        this.game.add.sprite(x * 32, y * 32, "lofi_environment", 70, this.container);
+                        img = this.obstacles.create(x * 32, y * 32, "lofi_environment", 73, this.container);
+                        img.body.immovable = true;
+                        break;
+                    case 3:
+                        this.game.add.sprite(x * 32, y * 32, "lofi_environment", 70, this.container);
+                        img = this.obstacles.create(x * 32, y * 32, "lofi_environment", 74, this.container);
+                        img.body.immovable = true;
                         break;
                     default:
                         console.error("Invalid tile:", currentTile);
@@ -119,7 +140,6 @@ export class Dungeon extends AbstractState {
                 })
             }, this);
             this.game.input.onDown.add(() => {
-                console.log("Firing")
                 socket.emit('player_fire', {
                     x: this.player.x,
                     y: this.player.y,
