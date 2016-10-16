@@ -57,7 +57,8 @@ module.exports = {
         new webpack.ProvidePlugin({
             m: "mithril",
             _: "lodash",
-            Phaser: "phaser"
+            Phaser: "phaser",
+            io: "socket.io-client",
         }),
         new webpack.optimize.OccurenceOrderPlugin(),
         new webpack.NoErrorsPlugin()
@@ -75,15 +76,11 @@ module.exports = {
     ],
     entry: {
         main: ["./src/app/entry.js"],
-        // vendor: [
-        //     "mithril",
-        //     // "./assets/lib/pixi.js",
-        //     // "./assets/lib/phaser.js"
-        // ]
     },
     externals: {
         "jquery": "jQuery",
         "phaser": "Phaser",
-        "mithril": "m"
+        "mithril": "m",
+        "socket.io-client": "io"
     }
 };

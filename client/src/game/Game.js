@@ -1,9 +1,13 @@
 import {ViewMainMenu} from "./views/ViewMainMenu";
+import {Boot} from "./states/Boot"
+import {MainMenu} from "./states/MainMenu";
+import {Preload} from "./states/Preload";
+import {Options} from "./states/Options";
+import {Dungeon} from "./states/Dungeon";
+import {WorldMap} from "./states/WorldMap";
 let currentView;
 export class SimpleGame {
     game;
-
-
 
     constructor() {
         let screenWidth = window.innerWidth;
@@ -13,36 +17,36 @@ export class SimpleGame {
             screenWidth *= window.devicePixelRatio;
             screenHeight *= window.devicePixelRatio;
         }
-        var width = window.innerWidth * 0.8;
+        let width = window.innerWidth * 0.8;
         // Load phaser
-        this.game = new Phaser.Game(width, width / 16 * 9, Phaser.CANVAS, 'canvasContainer', {
-            preload: this.preload,
-            create: this.create,
-            update: this.update
-        });
+        this.game = new Phaser.Game(width, width / 16 * 9, Phaser.CANVAS, 'canvasContainer', );
+        // {
+            // preload: this.preload,
+            // create: this.create,
+            // update: this.update
+        // }
+
+        // Register our states
+        this.game.state.add("Boot", new Boot());
+        this.game.state.add("Preload", new Preload());
+        this.game.state.add("MainMenu", new MainMenu());
+        this.game.state.add("Options", new Options());
+        this.game.state.add("WorldMap", new WorldMap());
+        this.game.state.add("Dungeon", new Dungeon());
+        this.game.state.start("Boot");
+
         window.addEventListener('resize', () => {
-            var width = window.innerWidth * 0.8;
+            let width = window.innerWidth * 0.8;
             this.game.scale.setGameSize(width, width / 16 * 9)
         }, false);
     }
 
     preload() {
-        this.game.load.image('logo', 'img/logo.png');
-        this.game.load.atlas('ui', 'img/uipack_rpg_sheet.png', 'data/atlas_ui.json', Phaser.Loader.TEXTURE_ATLAS_JSON_ARRAY);
-        //this.game.load.atlas('ui', 'img/oryx/lofi_char.png', 'json/lofi_char.json', Phaser.Loader.TEXTURE_ATLAS_JSON_ARRAY);
-        //this.game.load.atlasJSONHash('char',  'img/oryx/lofi_char.png','json/lofi_char.json');
 
-        this.game.load.image('tile_grey', 'img/grey.png');
-        this.game.load.image('tile_brown', 'img/brown.png');
-
-        this.game.load.spritesheet('lofi_char_clipped', '/img/oryx/lofi_char_clipped.png', 32, 32);
-        this.game.load.spritesheet('lofi_environment', '/img/oryx/lofi_environment.png', 8, 8);
-
-        // this.game.load.tilemap('lofi_char', '/json/lofi_char.json',null, Phaser.Tilemap.TILED_JSON);
-        // this.game.load.image('lofi_char_img', '/img/oryx/lofi_char.png');
     }
 
     create() {
+        this.game.stage.backgroundColor = "#ffffff"
         currentView = new ViewMainMenu(this.game);
         currentView.show();
     }
