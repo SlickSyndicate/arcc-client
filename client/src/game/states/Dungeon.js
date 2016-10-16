@@ -143,7 +143,7 @@ export class Dungeon extends AbstractState {
                 socket.emit('player_fire', {
                     x: this.player.x,
                     y: this.player.y,
-                    angle: this.game.physics.arcade.angleBetween(this.player, this.game.input)
+                    angle: this.game.physics.arcade.angleBetween(this.player, {x: this.game.input.worldX, y: this.game.input.worldY})
                 })
             }, this);
         });
@@ -175,6 +175,7 @@ export class Dungeon extends AbstractState {
     }
 
     addBullet(x, y, angle) {
+        console.log(x,y,angle)
         let bullet = this.bullets.create(x, y, 'lofi_char', 155);
         this.game.physics.arcade.accelerationFromRotation(angle, 5000, bullet.body.acceleration);
 
