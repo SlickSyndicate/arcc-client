@@ -1,6 +1,17 @@
 import {AbstractState} from "./AbstractState";
 import {APIHandler as APIHelper} from "../APIHandler";
 import {SocketHelper} from "../SocketHelper";
+
+// Tokyo 35.652832, 139.839478
+// New York 40.730610, -73.935242
+// São Paulo -23.533773, -46.625290
+// Toronto 43.7001100, -79.4163000
+const POSITION_OVERRIDE = {
+    enabled: true,
+    latitude: -23.533773,
+    longitude: -46.625290
+};
+
 export class Dungeon extends AbstractState {
     player;
     keys;
@@ -37,7 +48,14 @@ export class Dungeon extends AbstractState {
         this.game.input.keyboard.addKeyCapture([Phaser.Keyboard.W, Phaser.Keyboard.A, Phaser.Keyboard.S, Phaser.Keyboard.D, Phaser.Keyboard.SPACE, Phaser.Keyboard.SHIFT]);
 
         navigator.geolocation.getCurrentPosition((position) => {
-            APIHelper.requestGeoInstance(position.coords.latitude, position.coords.longitude, (response) => {
+            let latitude = position.coords.latitude;
+            let longitude = position.coords.longitude;
+
+            if (POSITION_OVERRIDE.enabled) {
+                latitude = POSITION_OVERRIDE.latitude;
+                longitude = POSITION_OVERRIDE.longitude;
+            }
+            APIHelper.requestGeoInstance(latitude, longitude, (response) => {
                 SocketHelper.connectToInstance(response.address, (socket) => {
                     this.socket = socket;
                     this.registerSocketHandlers(socket);
@@ -61,21 +79,28 @@ export class Dungeon extends AbstractState {
         this.game.world.bringToTop(this.bullets);
 
         // this.game.physics.arcade.collide(this.entityGroup);
-        this.game.physics.arcade.collide(this.entityGroup, this.obstacles, () => {}, () => {}, this);
-        this.game.physics.arcade.collide(this.entityGroup, this.water, () => {}, () => {}, this);
+        this.game.physics.arcade.collide(this.entityGroup, this.obstacles, () => {
+        }, () => {
+        }, this);
+        this.game.physics.arcade.collide(this.entityGroup, this.water, () => {
+        }, () => {
+        }, this);
+
+        // this.game.physics.arcade.collide(this.bullets, this.entityGroup, (bullet, entity) => {
+        //     bullet.kill()
+        // }, () => {
+        // }, this);
+        this.game.physics.arcade.collide(this.bullets, this.obstacles, (bullet, obstacle) => {
+            bullet.kill()
+        }, () => {
+        }, this);
     }
 
     render() {
-        // this.game.debug.cameraInfo(this.game.camera, 32, 32);
-        // if (this.player) {
-        //     this.game.debug.spriteCoords(this.player, 32, 500);
-        // }
     }
 
     makeDungeon() {
         this.container = this.game.add.spriteBatch(null, "Ground");
-        // this.container.visible = false;
-
         let viewportX = 100;
         let viewportY = 100;
 
@@ -87,7 +112,7 @@ export class Dungeon extends AbstractState {
                 let img;
                 switch (currentTile) {
                     case 0:
-                        img = this.obstacles.create(x * 32, y * 32, "lofi_environment", 114, this.container);
+                        img = this.water.create(x * 32, y * 32, "lofi_environment", 114, this.container);
                         img.body.immovable = true;
                         break;
                     case 1:
@@ -128,10 +153,9 @@ export class Dungeon extends AbstractState {
             this.initializeEntities();
             this.player = this.entities[data.playerId];
             this.game.camera.follow(this.player, Phaser.Camera.FOLLOW_LOCKON, 0.1, 0.1);
-            // this.game.camera.deadzone = new Phaser.Rectangle(100, 100, 600, 400);
             this.game.world.setBounds(0, 0, 3200, 3200);
             this.game.physics.enable(this.player, Phaser.Physics.ARCADE);
-            this.player.body.collideWorldBounds  = true;
+            this.player.body.collideWorldBounds = true;
             this.game.time.events.loop(1000, () => {
                 socket.emit('player_sync', {
                     x: this.player.x,
@@ -143,7 +167,10 @@ export class Dungeon extends AbstractState {
                 socket.emit('player_fire', {
                     x: this.player.x,
                     y: this.player.y,
-                    angle: this.game.physics.arcade.angleBetween(this.player, {x: this.game.input.worldX, y: this.game.input.worldY})
+                    angle: this.game.physics.arcade.angleBetween(this.player, {
+                        x: this.game.input.worldX,
+                        y: this.game.input.worldY
+                    })
                 })
             }, this);
         });
@@ -175,7 +202,6 @@ export class Dungeon extends AbstractState {
     }
 
     addBullet(x, y, angle) {
-        console.log(x,y,angle)
         let bullet = this.bullets.create(x, y, 'lofi_char', 155);
         this.game.physics.arcade.accelerationFromRotation(angle, 5000, bullet.body.acceleration);
 

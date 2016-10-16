@@ -6,7 +6,7 @@ let developmentConfig = require('./webpack.config');
 developmentConfig.debug = false;
 developmentConfig.plugins = [
     new webpack.DefinePlugin({
-        __API_ENDPOINT__: "'//api.arcc.rocks'",
+        __API_ENDPOINT__: "'//arcc.rocks'",
         __COOKIE_HOST__: "'.arcc.rocks'"
     }),
     new webpack.ProvidePlugin({

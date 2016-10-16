@@ -9,13 +9,13 @@ export class MainMenu extends AbstractState {
         let connectText = this.game.add.text(this.connectButton.x + 30, 305, "Connect");
         connectText.x = this.connectButton.centerX - connectText.width / 2;
         connectText.y = this.connectButton.centerY - connectText.height / 2;
-
-        this.optionsButton = this.game.add.button(0, 360, 'ui', this.optio, this);
-        this.optionsButton.x = this.game.world.width / 2 - this.optionsButton.width / 2;
-
-        let optionsText = this.game.add.text(0, 0, "Options");
-        optionsText.x = this.optionsButton.centerX - optionsText.width / 2;
-        optionsText.y = this.optionsButton.centerY - optionsText.height / 2;
+        //
+        // this.optionsButton = this.game.add.button(0, 360, 'ui', this.optio, this);
+        // this.optionsButton.x = this.game.world.width / 2 - this.optionsButton.width / 2;
+        //
+        // let optionsText = this.game.add.text(0, 0, "Options");
+        // optionsText.x = this.optionsButton.centerX - optionsText.width / 2;
+        // optionsText.y = this.optionsButton.centerY - optionsText.height / 2;
     }
 
     connectBtnCallback() {
