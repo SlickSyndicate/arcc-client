@@ -2,6 +2,7 @@ const routes = {
     'HEAD /hello/:name': 'HelloController.respond',
     'GET /hello/:name': 'HelloController.respond',
     'GET /users/current': 'users.current',
+    'GET /instance': 'instances.requestGeo'
 };
 
 module.exports = (app) => {

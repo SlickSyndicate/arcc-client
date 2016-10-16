@@ -12,7 +12,8 @@ developmentConfig.plugins = [
     new webpack.ProvidePlugin({
         m: "mithril",
         _: "lodash",
-        Phaser: "phaser"
+        Phaser: "phaser",
+        io: "socket.io-client"
     }),
     new webpack.optimize.OccurenceOrderPlugin(true), // true = Prefer entry chunks
     new webpack.optimize.DedupePlugin(),

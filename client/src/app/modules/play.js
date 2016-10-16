@@ -8,7 +8,7 @@ module.exports = {
     view: view,
     controller: () => {
         ARCC.activeTab = "play";
-        setTimeout(() => { new SimpleGame();}, 1100)
+        new SimpleGame();
     }
 };
 
